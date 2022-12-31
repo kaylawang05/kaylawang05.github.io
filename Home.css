@@ -6,7 +6,7 @@
   width: 539px;
   min-height: 248px;
   height: auto;
-  margin: 240px 39px 0 auto;
+  margin: 240px 40px 0 auto;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -22,10 +22,23 @@
   margin: 15px 40px 0;
 }
 
+.u-section-1 .u-text-3 {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-btn-1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  transition-duration: 0.5s;
+  padding: 0;
+}
+
 .u-section-1 .u-shape-1 {
   height: 532px;
   width: 426px;
-  margin: -390px auto 0 39px;
+  margin: -397px auto 0 39px;
 }
 
 .u-section-1 .u-image-1 {
@@ -59,7 +72,6 @@
   }
 
   .u-section-1 .u-group-1 {
-    min-height: 403px;
     margin-top: 60px;
   }
 
@@ -110,7 +122,6 @@
   }
 
   .u-section-1 .u-group-1 {
-    min-height: 392px;
     width: 283px;
     margin-top: 60px;
   }
@@ -120,6 +131,11 @@
   }
 
   .u-section-1 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-3 {
     margin-left: 0;
     margin-right: 0;
   }
@@ -137,4 +153,10 @@
     margin-top: -303px;
     margin-left: 33px;
   }
+}
+
+.u-section-1 .u-btn-1,
+.u-section-1 .u-btn-1:before,
+.u-section-1 .u-btn-1 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
 }
