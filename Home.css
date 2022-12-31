@@ -4,33 +4,31 @@
 
 .u-section-1 .u-group-1 {
   width: 539px;
-  min-height: 248px;
+  min-height: 277px;
   height: auto;
   margin: 240px 40px 0 auto;
 }
 
 .u-section-1 .u-container-layout-1 {
-  padding: 30px;
+  padding: 30px 13px;
 }
 
 .u-section-1 .u-text-1 {
   font-weight: 700;
-  margin: 35px auto 0;
+  margin: 0 auto;
 }
 
 .u-section-1 .u-text-2 {
-  margin: 15px 40px 0;
+  margin: 15px 57px 0;
 }
 
 .u-section-1 .u-text-3 {
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 0;
+  margin: 20px 29px 0;
 }
 
 .u-section-1 .u-btn-1 {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.875rem;
   transition-duration: 0.5s;
   padding: 0;
 }
@@ -101,6 +99,8 @@
   }
 
   .u-section-1 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 75px;
   }
 
